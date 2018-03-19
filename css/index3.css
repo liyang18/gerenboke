@@ -1,0 +1,147 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 533137 */
+    src: url('http://at.alicdn.com/t/font_533137_r4klbdu15zkkpgb9.eot');
+    src: url('http://at.alicdn.com/t/font_533137_r4klbdu15zkkpgb9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_533137_r4klbdu15zkkpgb9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_533137_r4klbdu15zkkpgb9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_533137_r4klbdu15zkkpgb9.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+body{
+    height: 58rem;
+}
+.kuang {
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+.kuang i{
+    font-size: 0.5rem;
+}
+.kuang a{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.kuang span{
+    font-size: 0.5rem;
+}
+.xiaoxi{
+    width: 100%;
+    border-top: 0.01rem solid #cccccc;
+    border-bottom: 0.2rem solid #cccccc;
+    box-sizing: border-box;
+    padding-bottom: 0.5rem;
+
+}
+.xiaoxi a{
+    width: 100%;
+    display: block;
+}
+.xiaoxi .box{
+    width: 100%;
+    height: auto;
+    /*background: pink;*/
+}
+.xiaoxi .box .left{
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.xiaoxi .box .left img{
+    width: 100%;
+    margin-left: 0.2rem;
+}
+.xiaoxi .box .left i{
+    font-size: 0.5rem;
+}
+.xiaoxi .box .center{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+}
+.center .mingzi{
+    font-size: 0.4rem;
+    color: black;
+    font-weight: lighter;
+}
+.center .riqi{
+    font-size: 0.3rem;
+    color: #cccccc;
+}
+.xiaoxi .box .center p{
+    font-size: 0.4rem;
+    color: black;
+}
+.xiaoxi a img{
+    width: 100%;
+    margin-top: 0.2rem;
+    /*padding-bottom: 0.3rem;*/
+}
+.tubiao{
+    width: 100%;
+    height: auto;
+
+}
+.tubiao i{
+    font-size: 0.6rem;
+    color: gray;
+    margin-right: 0.2rem;
+}
+/*返回顶部*/
+.top{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: fixed;
+    right: 0.5rem;
+    bottom: 2.5rem;
+    z-index: 1;
+
+}
+
+.top i{
+    font-size: 0.8rem;
+    color: skyblue;
+}
+/* 底部 */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+    border-top: 0.02rem solid #b5b2b5;
+    display: flex;
+    background: gray;
+    box-sizing: border-box;
+}
+footer li{
+    width: 20%;
+    height: 100%;
+}
+footer li i{
+    display: block;
+    font-size: 0.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    padding: 0.1rem;
+}
+footer li p{
+    font-size: 0.32rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.7rem;
+    padding-top: 0.05rem;
+}
+.action i{
+    color: #ccc;
+}
+.action p{
+    color: #ccc;
+}
+
+

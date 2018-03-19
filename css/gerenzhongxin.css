@@ -1,0 +1,150 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 533137 */
+    src: url('http://at.alicdn.com/t/font_533137_4nntqmp8uzph9f6r.eot');
+    src: url('http://at.alicdn.com/t/font_533137_4nntqmp8uzph9f6r.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_533137_4nntqmp8uzph9f6r.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_533137_4nntqmp8uzph9f6r.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_533137_4nntqmp8uzph9f6r.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+    font-size: 1rem;
+}
+body{
+    height: 50rem;
+    background: #F6F7F9;
+}
+header{
+    width: 100%;
+    background: white;
+
+}
+header a{
+    display: block;
+}
+header .box{
+    width: 100%;
+    height: 10rem;
+}
+.box i{
+    font-size: 1rem;
+    color: #313031;
+    float: right;
+    padding: 0.5rem;
+}
+.box img{
+    display: block;
+    width: 8rem;
+    padding: 3.5rem;
+    margin: 0 auto;
+}
+.box1{
+    width: 5rem;
+    height: 5rem;
+    float: right;
+    margin-top: -5rem;
+}
+.box2{
+    width: 100%;
+    height: 4rem;
+    border: 0.01rem solid #F6F7F9;
+    padding: 0.5rem 0.2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box2 .small1{
+    width: 33.333%;
+    margin-left: 1rem;
+}
+.box2 .small1 span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+.sheji{
+    width: 100%;
+    height:3rem;
+    border-bottom: 0.03rem solid #dedfde;
+    box-sizing: border-box;
+    padding:0 0.58rem;
+
+}
+.sheji a{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+.sheji .zuo i{
+    display: block;
+    font-size: 1rem;
+    color: #9c9a9c;
+    line-height: 3rem;
+    float: left;
+}
+.sheji .zuo p{
+    font-size: 1rem;
+    color: #000000;
+    line-height: 3rem;
+    float: right;
+    margin-left: 0.58rem;
+}
+.sheji .you i{
+    display: block;
+    font-size: 1rem;
+    color: #dedfde;
+    line-height: 3rem;
+}
+/*返回顶部*/
+.top{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem;
+    z-index: 1;
+
+}
+
+.top i{
+    font-size: 2rem;
+    color: skyblue;
+}
+/* 底部 */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    border-top: 0.02rem solid #b5b2b5;
+    display: flex;
+    background: gray;
+    box-sizing: border-box;
+}
+footer li{
+    width: 20%;
+    height: 100%;
+}
+footer li i{
+    display: block;
+    font-size: 0.5rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    padding: 0.1rem;
+}
+footer li p{
+    font-size: 0.32rem;
+    color:#fff;
+    text-align: center;
+    line-height: 0.7rem;
+    padding-top: 0.05rem;
+}
+.action i{
+    color: #ccc;
+}
+.action p{
+    color: #ccc;
+}

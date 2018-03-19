@@ -1,0 +1,153 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 533137 */
+    src: url('http://at.alicdn.com/t/font_533137_627ouvlxyyq1if6r.eot');
+    src: url('http://at.alicdn.com/t/font_533137_627ouvlxyyq1if6r.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_533137_627ouvlxyyq1if6r.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_533137_627ouvlxyyq1if6r.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_533137_627ouvlxyyq1if6r.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+    font-size: 1rem;
+}
+body{
+    height: 57rem;
+    background: #F6F7F9;
+}
+header{
+    width: 100%;
+    height: 2.5rem;
+    background: gray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+header .title{
+    width: 100%;
+    height: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.8rem;
+    margin-top: 0.4rem;
+}
+header nav a{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+    margin-top: 0.2rem;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
+header nav i{
+    color: #fff;
+    font-size: 0.26rem;
+    position: relative;
+}
+header nav i ul{
+    width: 1rem;
+    height: 0;
+    background: #fff;
+    position: absolute;
+    left: -0.35rem;
+    /*bottom: -2.7rem;*/
+    z-index: 2;
+    overflow: hidden;
+}
+header nav i ul li{
+    width: 100%;
+    text-align: center;
+}
+header nav i ul li a{
+    color: #000;
+    font-size: 0.2rem;
+}
+/*头部结束*/
+.neirong{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    margin-top: 3rem;
+}
+.neirong .title2{
+    width: 100%;
+    height: 3rem;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bolder;
+    /*line-height: 3rem;*/
+}
+.neirong span{
+    font-size: 0.5rem;
+    color: #cccccc;
+    padding:0 0.2rem;
+}
+.neirong a img{
+    display: block;
+    width: 100%;
+    padding:1rem 0;
+}
+.news p{
+    width: 100%;
+    padding:1rem 0rem;
+    font-size: 0.9rem;
+
+}
+.kuang{
+    width: 100%;
+    border-bottom: 0.1rem solid #cccccc;
+}
+.dibu{
+    width: 100%;
+}
+.dibu a{
+    display: flex;
+    justify-content: space-around;
+}
+.dibu p{
+    font-size: 1rem;
+    color: gray;
+}
+.dibu span{
+    color: gray;
+}
+.top{
+    width: 0.5rem;
+    height: 0.5rem;
+    position: fixed;
+    right: 2.5rem;
+    bottom: 5rem;
+    z-index: 1;
+
+}
+
+.top i{
+    font-size: 2rem;
+    color: skyblue;
+}
+footer{
+    width: 100%;
+    height: 3rem;
+    background: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    line-height: 0.7rem;
+}
+footer .cc{
+    color: #cccccc;
+    font-size: 0.3rem;
+    padding:0.5rem 1.5rem;
+}
+footer h3{
+    color: #cccccc;
+    font-size: 0.1rem;
+    text-align: center;
+    padding:0.5rem 0;
+}

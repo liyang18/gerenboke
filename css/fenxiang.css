@@ -1,0 +1,83 @@
+@import "base.css";
+@font-face {
+    font-family: 'iconfont';  /* project id 533137 */
+    src: url('http://at.alicdn.com/t/font_533137_hoe42ojibg74x6r.eot');
+    src: url('http://at.alicdn.com/t/font_533137_hoe42ojibg74x6r.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_533137_hoe42ojibg74x6r.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_533137_hoe42ojibg74x6r.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_533137_hoe42ojibg74x6r.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+    font-style: normal;
+}
+body{
+    height: 15rem;
+    background: #FDF6F0;
+}
+.box{
+    width: 100%;
+}
+.box img{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.wenzi{
+    width: 100%;
+    float: left;
+}
+.wenzi .toux{
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+.wenzi .toux img{
+    display: block;
+    width: 100%;
+}
+.wenzi span{
+    width: 100%;
+    font-size: 0.1rem;
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: -0.5rem;
+}
+.fenxiang{
+    width: 100%;
+}
+.fenxiang p{
+    font-size: 0.2rem;
+    color: black;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+.tubiao{
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-top: 3.5rem;
+}
+.tubiao a{
+    display: block;
+}
+.tubiao .tu{
+    width: 100%;
+}
+.tubiao .tu i{
+    font-size: 1rem;
+    margin-right: 0.2rem;
+}
+.quxiao{
+    width: 100%;
+    height: 2rem;
+    border-bottom:0.01rem solid #F2F6F7 ;
+    margin-top: 0.5rem;
+}
+.quxiao i{
+    margin-left: 2.8rem;
+    font-size: 0.7rem;
+    color: #cccccc;
+}
+
+
+
